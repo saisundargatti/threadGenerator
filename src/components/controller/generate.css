@@ -1,0 +1,9 @@
+.button-class {
+  background-color: lightseagreen;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  padding: 5px 30px;
+}

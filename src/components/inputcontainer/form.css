@@ -1,0 +1,79 @@
+.radioLabel {
+  padding: 0px 6px;
+}
+.form-container {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 400px;
+}
+@media screen and (max-width: 600px) {
+  .form-container {
+    width: 100%;
+  }
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 0px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .button-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.heading {
+  color: lightseagreen;
+  font-family: Verdana;
+  font-size: 32px;
+  margin: 0px 0px 0px 30px;
+  padding: 0px;
+}
+@media screen and (max-width: 600px) {
+  .heading {
+    text-align: center;
+    padding-right: 24px;
+  }
+}
+.textarea-container {
+  padding-left: 5px;
+  border-radius: 10px;
+  border-color: gray;
+  border-width: 2px;
+  overflow: auto;
+}
+@media screen and (max-width: 600px) {
+  .textarea-container {
+    width: 100%;
+  }
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.button-class {
+  background-color: lightseagreen;
+  font-family: "verdana";
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  padding: 5px 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 0 seagreen;
+}
+.button-class:active {
+  box-shadow: none;
+  transform: translateY(2px);
+}

@@ -1,0 +1,57 @@
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.threads-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
+  background-color: white;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+
+.list-header {
+  color: lightseagreen;
+  font-family: Verdana;
+  font-size: 14px;
+  padding: 0px;
+}
+.block {
+  display: none;
+}
+.no-block {
+  display: block;
+}
+.copy-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  color: lightseagreen;
+  font-weight: 600;
+}
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+}
+.copyButton {
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .major-container {
+    padding: 0px;
+  }
+}
